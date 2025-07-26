@@ -1,0 +1,52 @@
+ver 'allowpaymentrequest'.
+_ @ framework-3696f0681438c975.js:1Пояснение к предупреждению
+2chrome-extension://d…kb/content-all.js:1 Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
+    at y (content-all.js:1:49937)Пояснение к ошибке
+94Unchecked runtime.lastError: The message port closed before a response was received.Пояснение к ошибке
+stallwart.build.js:1 stallwart: failed ping 1
+2742-b545a644ce631f3a.js:1 Uncaught (in promise) Error: transport is closed, cant send
+    at d.send (742-b545a644ce631f3a.js:1:109585)
+    at _app-fa2bbf2ef2a04535.js:6:51182
+    at Object.apply (_app-fa2bbf2ef2a04535.js:6:50860)
+    at Object.<anonymous> (8153-3354e9c497198d7c.js:1:135699)
+    at Object.next (main-bd5a7cc97f1d58f0.js:1:180336)
+    at n (main-bd5a7cc97f1d58f0.js:1:81986)
+    at u (main-bd5a7cc97f1d58f0.js:1:82183)Пояснение к ошибке
+4page.bundle.js:1 Uncaught (in promise) Error: Extension context invalidated.
+    at _0x36168b.value (page.bundle.js:1:99076)
+    at _0xd4487c (page.bundle.js:1:113434)
+    at page.bundle.js:1:90303
+    at _0x3fc177 (page.bundle.js:1:289762)
+    at Generator.<anonymous> (page.bundle.js:1:293070)
+    at Generator.next (page.bundle.js:1:290670)
+    at _0x109b97 (page.bundle.js:1:281481)
+    at _0xa07ae4 (page.bundle.js:1:281964)
+    at page.bundle.js:1:282163
+    at new Promise (<anonymous>)Пояснение к ошибке
+chrome-extension://d…kb/content-all.js:1 Uncaught (in promise) Error: Could not establish connection. Receiving end does not exist.
+    at y (content-all.js:1:49937)Пояснение к ошибке
+5page.bundle.js:1 Uncaught (in promise) Error: Extension context invalidated.
+    at _0x36168b.value (page.bundle.js:1:99076)
+    at _0xd4487c (page.bundle.js:1:113434)
+    at page.bundle.js:1:90303
+    at _0x3fc177 (page.bundle.js:1:289762)
+    at Generator.<anonymous> (page.bundle.js:1:293070)
+    at Generator.next (page.bundle.js:1:290670)
+    at _0x109b97 (page.bundle.js:1:281481)
+    at _0xa07ae4 (page.bundle.js:1:281964)
+    at page.bundle.js:1:282163
+    at new Promise (<anonymous>)Пояснение к ошибке
+workspace_iframe.html:32 Unrecognized feature: 'ambient-light-sensor'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'battery'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-not-rendered'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-out-of-viewport'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'layout-animations'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'legacy-image-formats'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'navigation-override'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'oversized-images'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'publickey-credentials'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'speaker-selection'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'unoptimized-images'.Пояснение к предупреждению
+workspace_iframe.html:32 Unrecognized feature: 'unsized-media'.Пояснение к предупреждению
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowfullscreen'.Пояснение к предупреждению
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowpaymentrequest'.

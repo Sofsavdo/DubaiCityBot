@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubai City Bot - Connection Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .success { color: #28a745; font-weight: bold; }
+        .status { margin: 10px 0; padding: 10px; border-radius: 5px; }
+        .working { background: #d4edda; border: 1px solid #c3e6cb; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏗️ Dubai City Bot Admin Panel</h1>
+        <div class="status working">
+            <p class="success">✅ Static file serving is working</p>
+            <p class="success">✅ Server is accessible via Replit preview</p>
+            <p class="success">✅ HTML rendering is functional</p>
+        </div>
+        <h2>Connection Details:</h2>
+        <p><strong>Host:</strong> <span id="host">Loading...</span></p>
+        <p><strong>URL:</strong> <span id="url">Loading...</span></p>
+        <p><strong>User Agent:</strong> <span id="userAgent">Loading...</span></p>
+        
+        <h2>Next Steps:</h2>
+        <p>If you can see this page, the server connection is working. The React app should load at the root URL.</p>
+        <a href="/" style="display: inline-block; background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px;">Go to Admin Panel</a>
+    </div>
+    
+    <script>
+        document.getElementById('host').textContent = window.location.host;
+        document.getElementById('url').textContent = window.location.href;
+        document.getElementById('userAgent').textContent = navigator.userAgent;
+    </script>
+</body>
+</html>
